@@ -1,0 +1,5 @@
+
+decimal_number = int(input().strip())
+
+# Convert to binary and print without the '0b' prefix
+print(format(decimal_number, 'b'))
